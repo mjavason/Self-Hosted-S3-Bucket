@@ -1,5 +1,5 @@
 FROM minio/minio:latest
 
-EXPOSE 10000
+ENV MINIO_BROWSER_REDIRECT_URL=/console
 
-CMD ["server", "/data", "--console-address", ":10000"]
+CMD minio server /data --console-address ":9090"
