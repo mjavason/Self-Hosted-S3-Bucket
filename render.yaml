@@ -5,14 +5,9 @@ services:
 
     plan: free
 
-    disk:
-      name: minio-data
-      mountPath: /data
-      sizeGB: 1
-
     envVars:
       - key: MINIO_ROOT_USER
         value: admin
 
       - key: MINIO_ROOT_PASSWORD
-        value: strong@Password123
+        value: Strong@password123
