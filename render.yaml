@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: minio-test
+    name: self-hosted-s3-bucket
     runtime: docker
 
     plan: free
