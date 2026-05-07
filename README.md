@@ -16,7 +16,7 @@ This project can be deployed directly to Render as a blueprint:
 
 ## Usage
 
-After deployment, your S3 bucket service will be accessible at your provided endpoint. Use the following environment variables to configure your client applications to connect to this self-hosted instance.
+After deployment, your S3 bucket service will be accessible at your provided endpoint. Use the following environment variables to configure your client applications to connect to this self-hosted instance. Render only allows for exposing one port, so if you wish to see the Minio UI, update the render port env setting to 9001 and vice versa to switch back.
 
 ```
 S3_BUCKET=dev
