@@ -6,8 +6,5 @@ services:
     plan: free
 
     envVars:
-      - key: MINIO_ROOT_USER
-        value: admin
-
-      - key: MINIO_ROOT_PASSWORD
-        value: Strong@password123
+      - key: PORT
+        value: 9000
